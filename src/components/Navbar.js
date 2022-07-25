@@ -7,10 +7,10 @@ const Navbar = () => (
   <div className="navbar">
     <img className="navbarlogo" src={image} alt="surreallogo" />
     <ul className="navbar-links">
-      <Link className="navbar-links-item" to="/">
+      <Link className="navbar-links" to="/">
         View Properties
       </Link>
-      <Link className="navbar-links-item" to="/add-property">
+      <Link className="navbar-links" to="/add-property">
         Add a Property
       </Link>
     </ul>

@@ -1,16 +1,34 @@
 .navbar {
-    background-color: azure;
-    display: flex
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(192, 126, 126);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  text-transform: uppercase;
+  overflow: hidden;
 }
 
 .navbarlogo {
-    height: 100px;
+    height: 65px;
     width: auto;
+    border-radius: 15px;
 }
 
-.navbar-links-items {
-    margin: 100px;
-    padding: 10px;
-    display: inline-block;
-    font-size: 20px;
+.navbar-links {
+    margin: 1px;
+    padding: 10px 10px;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    text-transform:lowercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    border-radius: 15px;
 }

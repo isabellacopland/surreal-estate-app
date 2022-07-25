@@ -1,4 +1,16 @@
 .add-property {
     padding: 10px;
-    background-color: aquamarine;
+    color: whitesmoke;
 }
+
+.title {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.submitbutton {
+    border-radius: 15px;
+    background-color: rgb(228, 225, 222);
+    font-family: 'Cormorant SC', serif;
+}
+
