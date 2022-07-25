@@ -69,7 +69,7 @@ const AddProperty = () => {
             type="number"
             value={fields.bedrooms}
             onChange={handleFieldChange}
-            placeholder="1"
+            placeholder="0"
           />
         </label>
 
