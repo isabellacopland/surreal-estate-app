@@ -6,7 +6,7 @@ const AddProperty = () => {
   const initialState = {
     fields: {
       title: "",
-      type: "Cottage",
+      type: "Flat",
       bedrooms: "",
       bathrooms: "",
       price: "",
